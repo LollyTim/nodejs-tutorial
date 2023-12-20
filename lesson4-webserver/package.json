@@ -1,18 +1,19 @@
 {
-  "name": "lesson4-webserver",
+  "name": "05tut",
   "version": "1.0.0",
+  "description": "Node.js Web Server tutorial",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server",
-    "dev": "node server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
-  "author": "lolly",
+  "author": "Dave Gray",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  },
   "dependencies": {
-    "date-fns": "^3.0.1"
+    "date-fns": "^2.23.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
