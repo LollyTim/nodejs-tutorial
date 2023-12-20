@@ -1,7 +1,7 @@
 {
   "name": "05tut",
   "version": "1.0.0",
-  "description": "Express tutorial",
+  "description": "ExpressJs tutorial",
   "main": "server.js",
   "scripts": {
     "start": "node server",
