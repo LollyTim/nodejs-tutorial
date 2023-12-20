@@ -10,8 +10,8 @@
   "author": "lolly",
   "license": "ISC",
   "dependencies": {
-    "date-fns": "^3.0.1",
-    "uuid": "^9.0.1"
+    "date-fns": "^3.0.1"
+  
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
