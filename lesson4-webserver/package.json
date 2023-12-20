@@ -1,18 +1,18 @@
 {
+  "name": "lesson4-webserver",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "dev": "node server"
+  },
+  "author": "lolly",
+  "license": "ISC",
+  "description": "",
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
   "dependencies": {
-    "date-fns": "^3.0.1",
-    "uuid": "^9.0.1"
-  },
-  "name": "lesson4-webserver",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "lolly",
-  "license": "ISC",
-  "description": ""
+    "date-fns": "^3.0.1"
+  }
 }
