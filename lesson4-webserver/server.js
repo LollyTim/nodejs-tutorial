@@ -16,12 +16,12 @@ app.get('/old-page(.html)?', (req, res) => {
     res.redirect(301,"new-page.html")
 })
 
-// app.get('/hello(.html)?', (req, res, next) => {
-//     console.log("Attempten to load hello.html");
-//     next();
-// }, (req, res) => {
-//     res.send('Hello World!!');
-// });
+app.get('/hello(.html)?', (req, res, next) => {
+    console.log("Attempten to load hello.html");
+    next();
+}, (req, res) => {
+    res.send('Hello World!!');
+});
 
 
  const one = (req, res, next) => {
