@@ -4,7 +4,13 @@ const path = require('path');
 const PORT = process.env.PORT || 3500;
 
 
-app.use(express.urlencoded({ extended: falsec }))
+app.use(express.urlencoded({ extended: false }))
+
+app.use(express.json())
+
+app.use(express.static(path.join(__dirname, "/public",)))
+
+
 
 app.get('^/$|/index(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, "views", "index.html"))
