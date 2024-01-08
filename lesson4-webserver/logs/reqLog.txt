@@ -1,0 +1,5 @@
+20240108	13:08:14	71dd0442-6526-4f6e-81ee-ee4f7a6b8e4f	GET	undefined	/new-page.html
+20240108	13:08:14	4c8b4119-890c-48b2-a4b8-f0cb5bca02c9	GET	undefined	/css/style.css
+20240108	13:08:14	30cb57eb-67e3-474e-a263-5837f80f91d4	GET	undefined	/img/img1.jpg
+20240108	13:08:23	0fead4d0-3638-42b2-9306-f8677688c744	GET	undefined	/
+20240108	13:08:23	5d8c1b6d-099e-4929-8bcc-a8fc4015cc2f	GET	undefined	/css/style.css
