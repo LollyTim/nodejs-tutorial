@@ -7,9 +7,20 @@ const PORT = process.env.PORT || 3500;
 
 app.use( logger);
 
+const whitelist = ['https://www.google.com', 'https://www.youtube.com', 'https://expressjs.com','http://127.0.0.1:5500', 'http://localhost:3500']
 
+const corsOptions = {
+    origin: (origin, callback) => {
+        if (whitelist.indexOf(origin) !== -1){
+            callback(null, true)
+        }else {
+            callback(new Error("Not Allowed By CORS"));
+        }
+    },
+    optionsSuccessStatus: 200
+}
 // cross origin resource shearing 
-app.use(cors())
+app.use(cors(corsOptions))
 
 app.use(express.urlencoded({ extended: false }))
 
