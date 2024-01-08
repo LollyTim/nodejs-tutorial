@@ -3,3 +3,9 @@
 20240108	13:08:14	30cb57eb-67e3-474e-a263-5837f80f91d4	GET	undefined	/img/img1.jpg
 20240108	13:08:23	0fead4d0-3638-42b2-9306-f8677688c744	GET	undefined	/
 20240108	13:08:23	5d8c1b6d-099e-4929-8bcc-a8fc4015cc2f	GET	undefined	/css/style.css
+20240108	13:18:59	71cbad95-3119-41bb-a545-0cc0f73dbb75	GET	undefined	/
+20240108	13:18:59	7d2ade67-56a3-43a2-8b10-ff494860b248	GET	undefined	/css/style.css
+20240108	13:20:44	c51b7447-31fb-41c1-b1e9-3afb03036ee4	OPTIONS	https://www.google.com	/
+20240108	13:20:44	b9a60e14-eb9c-40bc-a9ff-0ecb98fa368b	GET	https://www.google.com	/
+20240108	13:21:18	21f90dae-bfd6-49fc-99b9-e7a081be0048	OPTIONS	https://www.google.com	/
+20240108	13:21:18	f52fe014-a201-4da5-afa0-da275fa122ce	GET	https://www.google.com	/
