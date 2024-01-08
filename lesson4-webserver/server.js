@@ -2,9 +2,14 @@ const express = require('express');
 const app = express();
 const {logger} = require('./middleware/logEvents')
 const path = require('path');
+const cors = require('cors');
 const PORT = process.env.PORT || 3500;
 
 app.use( logger);
+
+
+// cross origin resource shearing 
+app.use(cors())
 
 app.use(express.urlencoded({ extended: false }))
 
