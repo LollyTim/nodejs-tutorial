@@ -1,0 +1,6 @@
+20240109	14:23:27	1f1fe9d1-fda9-4c77-ba47-61cdadf285ad	Error: Not Allowed By CORS
+20240109	14:49:11	f90a0c48-e319-4895-ba1e-1ca7b668221b	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'
+20240109	14:50:15	c9f8440a-c8bf-461b-8f1e-356c8cdd9007	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'
+20240109	14:50:24	2c07da99-378f-4967-a2ec-eaa690ff7ed9	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'
+20240109	14:51:05	6c797e61-9141-4a8a-b8b1-bdb3e7abb897	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'
+20240109	14:51:21	7aa1787e-5ab3-45a6-a784-c141b0fd93fd	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'

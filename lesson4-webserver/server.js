@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const {logger} = require('./middleware/logEvents')
+const errorHandler = require('./middleware/errorHandler')
 const path = require('path');
 const cors = require('cors');
 const PORT = process.env.PORT || 3500;
@@ -11,7 +12,7 @@ const whitelist = ['https://www.google.com', 'https://www.youtube.com', 'https:/
 
 const corsOptions = {
     origin: (origin, callback) => {
-        if (whitelist.indexOf(origin) !== -1){
+        if (whitelist.indexOf(origin) !== -1 || !origin){
             callback(null, true)
         }else {
             callback(new Error("Not Allowed By CORS"));
@@ -28,7 +29,7 @@ app.use(express.json())
 
 app.use(express.static(path.join(__dirname, "/public",)))
 
-
+app.use('/subdir', require('./routes/subdir'))
 
 app.get('^/$|/index(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, "views", "index.html"))
@@ -64,8 +65,18 @@ const three = (req, res) => {
 
 app.get('/chain(.html)?', [one, two, three]);
 
-app.get('/*', (req, res) => {
-    res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+app.all('*', (req, res) => {
+    res.status(404);
+    if (req.accepts('html')) {
+        res.sendFile(path.join(__dirname, "views", "404.html"));
+    } else if (req.accepts('json')) {
+        res.json({error: "404 Not Found"})
+    } else {
+       res.type('txt').send('404 not found')
+    }
 });
+
+
+app.use(errorHandler)
 
 app.listen(PORT, () => console.log(`server runing on port ${PORT}`));
