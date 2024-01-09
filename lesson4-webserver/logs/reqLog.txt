@@ -107,3 +107,10 @@
 20240109	14:52:33	6d266dc9-731e-452d-b130-2f7271f6ccd8	GET	undefined	/subdir/test.html
 20240109	15:23:05	2ba314db-4d08-4225-83f8-67aad70b873a	GET	undefined	/subdir/tec.html
 20240109	15:23:05	374948f0-ab78-46fc-a7ef-e1f2fe44fd4d	GET	undefined	/css/style.css
+20240109	22:53:07	2f598663-dba4-41e0-8eb0-c3237312295a	GET	undefined	/
+20240109	22:53:07	55a642e6-3250-48e9-b07f-ecd5296b93d8	GET	undefined	/css/style.css
+20240109	22:53:07	980bdc58-b3c1-4a43-98c6-b331062d4295	GET	undefined	/favicon.ico
+20240109	22:53:17	70958eb5-b7fb-460b-a969-00cc9fead373	GET	undefined	/subdir/
+20240109	22:53:23	1e4b5d57-7e27-4002-a651-aec0ee40dccc	GET	undefined	/subdir/sss
+20240109	22:53:23	4ecb7fc5-8094-4b21-9b62-80c2f2c257ab	GET	undefined	/css/style.css
+20240109	22:53:37	0dfd77c3-8475-4e49-a6ec-39060719803b	GET	undefined	/subdir/test.html
