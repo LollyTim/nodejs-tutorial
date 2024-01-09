@@ -21,16 +21,17 @@ const corsOptions = {
     optionsSuccessStatus: 200
 }
 // cross origin resource shearing 
-app.use(cors(corsOptions))
+app.use(cors(corsOptions));
 
-app.use(express.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: false }));
 
-app.use(express.json())
+app.use(express.json());
 
-app.use('/',express.static(path.join(__dirname, "/public",)))
-app.use('/subdir', express.static(path.join(__dirname, "/public",)))
+app.use('/',express.static(path.join(__dirname, "/public",)));
+app.use('/subdir', express.static(path.join(__dirname, "/public",)));
 
-app.use('/subdir', require('./routes/subdir'))
+app.use('/', require('./routes/root'));
+app.use('/subdir', require('./routes/subdir'));
 
 
 
@@ -50,6 +51,6 @@ app.all('*', (req, res) => {
 });
 
 
-app.use(errorHandler)
+app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`server runing on port ${PORT}`));

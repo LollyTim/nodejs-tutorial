@@ -114,3 +114,12 @@
 20240109	22:53:23	1e4b5d57-7e27-4002-a651-aec0ee40dccc	GET	undefined	/subdir/sss
 20240109	22:53:23	4ecb7fc5-8094-4b21-9b62-80c2f2c257ab	GET	undefined	/css/style.css
 20240109	22:53:37	0dfd77c3-8475-4e49-a6ec-39060719803b	GET	undefined	/subdir/test.html
+20240109	23:07:41	263e7b64-2a8c-4cdd-bfdf-a6189e53e227	GET	undefined	/subdir/test.html
+20240109	23:07:46	fd906c83-3aa0-436f-a3cb-c85aa5f75e89	GET	undefined	/
+20240109	23:07:46	c85a4573-553c-475e-8623-634e433755d2	GET	undefined	/css/style.css
+20240109	23:08:00	2268c8b0-4298-4812-af65-4f731bff9cad	GET	undefined	/old-page
+20240109	23:08:00	8ab25811-374a-432e-9216-25b130b4e313	GET	undefined	/new-page.html
+20240109	23:08:00	9dc47d3c-e3bf-4d52-8bdb-e84926a4eaff	GET	undefined	/img/img1.jpg
+20240109	23:08:00	c2602fd1-2a20-4f05-b94d-b1a6e26c9c05	GET	undefined	/css/style.css
+20240109	23:08:10	f03a672d-21a3-4536-914e-e793241dae96	GET	undefined	/index
+20240109	23:08:10	001d9749-6e0c-4b0e-affc-cacdf508ea93	GET	undefined	/css/style.css
