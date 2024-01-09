@@ -131,3 +131,16 @@
 20240109	23:11:40	c96b61b4-8f04-40f1-8f67-c25e8fdcd62c	GET	undefined	/css/style.css
 20240109	23:11:41	95b80771-1edb-42cf-a460-3f19cbf64a83	GET	undefined	/index
 20240109	23:11:41	b98cdc90-414e-4744-9a19-60176b28c1a5	GET	undefined	/css/style.css
+20240109	23:44:16	08e04d9a-0dcb-4ce2-a28b-d849e198a59a	GET	undefined	/employees
+20240109	23:44:19	16c21323-5081-4a53-b000-251463820753	GET	undefined	/employees
+20240109	23:44:20	7082f846-a1e1-4b40-8c45-5e8f51541236	GET	undefined	/employees
+20240109	23:44:21	e2ab8578-e171-416a-b302-7d241ab26290	GET	undefined	/employees
+20240109	23:44:21	c0667e6e-10df-4f97-960b-ab75fd58c4fb	GET	undefined	/employees
+20240109	23:45:12	b5a6eab2-9acc-4b5d-9f51-7b129f92936b	GET	undefined	/employees
+20240109	23:49:02	ef9a64cf-a142-4d23-887b-89c8609d346a	POST	undefined	/employees
+20240109	23:49:28	db29210f-bc23-4e0e-9ea2-29e883a81c83	POST	undefined	/employees
+20240109	23:49:29	34f18bd6-8c0b-4e5e-9a4b-8122be872ff6	POST	undefined	/employees
+20240109	23:54:40	60f10615-fe15-48b4-a77f-de0707163deb	POST	undefined	/employees
+20240109	23:55:53	cdfd0e48-c2ca-4952-8049-55a7b49b863e	PUT	undefined	/employees
+20240109	23:56:24	2fe389c3-d9b7-4d27-8ea0-da7142edc213	DELETE	undefined	/employees
+20240109	23:57:02	0a7e345e-f779-41d7-a6da-298f8a34c15a	GET	undefined	/employees/1

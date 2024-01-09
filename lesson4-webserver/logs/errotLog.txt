@@ -4,3 +4,6 @@
 20240109	14:50:24	2c07da99-378f-4967-a2ec-eaa690ff7ed9	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'
 20240109	14:51:05	6c797e61-9141-4a8a-b8b1-bdb3e7abb897	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'
 20240109	14:51:21	7aa1787e-5ab3-45a6-a784-c141b0fd93fd	Error: ENOENT: no such file or directory, stat 'C:\Users\olola\OneDrive\Documents\workspace\Personal\nodejs-tutorial\lesson4-webserver\views\subdir\text.html'
+20240109	23:49:03	49da6844-a2bf-4a89-af50-02613286940c	TypeError: req.json is not a function
+20240109	23:49:28	b15de3a0-96f3-4e8e-9388-8105ef871f48	TypeError: req.json is not a function
+20240109	23:49:29	6d2fc0e5-1725-47c0-81f5-23afd01035fb	TypeError: req.json is not a function
