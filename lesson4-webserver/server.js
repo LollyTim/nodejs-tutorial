@@ -22,7 +22,7 @@ app.use('/',express.static(path.join(__dirname, "/public",)));
 
 app.use('/', require('./routes/root'));
 app.use('/register', require('./routes/register'));
-app.use('/login', require('./routes/auth'));
+app.use('/auth', require('./routes/auth'));
 app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res) => {
