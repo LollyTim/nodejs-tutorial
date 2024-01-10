@@ -176,3 +176,5 @@
 20240110	11:25:52	67fc4e16-c5af-48e6-becb-2675d1212383	POST	undefined	/employees/
 20240110	15:02:47	46d8e60d-4c43-429e-9628-50c62890101b	POST	undefined	/register
 20240110	15:03:33	97932b6c-25ca-4628-bd46-781e5a39cb27	POST	undefined	/register
+20240110	15:37:27	bac7514c-b23f-456d-a8df-efebe9bd3850	GET	undefined	/css/style.css
+20240110	15:37:28	4b438c5e-2bf8-46ca-9e9d-7ba186691775	GET	undefined	/favicon.ico
