@@ -6,7 +6,7 @@ const corsOptions = require('./config/corsOption');
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
-// const cookieParser = require('cookie-parser');
+const cookieParser = require('cookie-parser');
 // const credentials = require('./middleware/credentials');
 const PORT = process.env.PORT || 3500;
 
@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // //middleware for cookies
-// app.use(cookieParser());
+app.use(cookieParser());
 
 //serve static files
 app.use('/', express.static(path.join(__dirname, '/public')));
