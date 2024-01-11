@@ -22,3 +22,15 @@
 20240110	11:21:32	4ce7fe6b-9a59-4184-b151-ab40e29ae2ff	ReferenceError: employee is not defined
 20240110	11:21:33	84ca6788-ad4f-429d-8721-e21ec48cf870	ReferenceError: employee is not defined
 20240110	11:21:34	120557f6-cb07-4fd7-8f56-aea3c921ee0e	ReferenceError: employee is not defined
+20240111	00:36:11	52f5c185-870e-40ac-bab6-53a16f87a245	SyntaxError: Unexpected token 'e', "#" is not valid JSON
+20240111	00:36:17	4b3e1d4b-65d8-44e8-87d5-f76e138e1722	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:36:46	dbb2ab39-d53c-469e-9923-6f99695022b5	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:37:49	38273861-31cd-4c8a-9884-fed83bd908ea	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:37:50	bfc76b42-4096-4322-bcbe-26308dd3c919	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:37:51	2acaba39-25bc-4c99-859f-6ce0d5c13c50	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:37:51	0b5ab36b-4af5-4143-891b-55735e45d149	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:37:52	d18b679f-2544-4e70-b7dc-f1329d2c7fdd	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:38:46	c1eb5ce3-7768-4c45-8dba-24ce056558c8	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:39:28	e765b0a8-22e0-4328-a747-cb1a6fab9151	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:57:43	d522a6bd-9173-4b29-a6ff-2c7b4a182057	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240111	00:57:47	dce17f77-5e7f-49ba-95ed-e96772e2c204	TypeError: Cannot read properties of undefined (reading 'autorization')
