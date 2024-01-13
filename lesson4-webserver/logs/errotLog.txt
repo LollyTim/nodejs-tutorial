@@ -34,3 +34,26 @@
 20240111	00:39:28	e765b0a8-22e0-4328-a747-cb1a6fab9151	TypeError: Cannot read properties of undefined (reading 'autorization')
 20240111	00:57:43	d522a6bd-9173-4b29-a6ff-2c7b4a182057	TypeError: Cannot read properties of undefined (reading 'autorization')
 20240111	00:57:47	dce17f77-5e7f-49ba-95ed-e96772e2c204	TypeError: Cannot read properties of undefined (reading 'autorization')
+20240113	01:11:54	0e05d9cb-24b7-46cb-840d-670e77ec6a30	TypeError: next is not a function
+20240113	01:12:20	0f591a91-db36-4fa9-baac-421df9feccc3	TypeError: next is not a function
+20240113	01:13:54	814644da-0660-4752-95a3-9593f3afb55d	TypeError: next is not a function
+20240113	01:13:56	bcf28112-7e64-4b5f-8ab0-a0f8a03e6902	TypeError: next is not a function
+20240113	01:13:56	2c53e2c8-ae1a-416d-8ed7-865d5c7ed1cf	TypeError: next is not a function
+20240113	01:13:56	6b9e7214-36f5-4ada-958f-586700d7d5c9	TypeError: next is not a function
+20240113	01:13:56	4f255468-3fe6-4c39-8b51-c3255157e8a9	TypeError: next is not a function
+20240113	01:13:57	51d700fd-5ad8-42b5-bb55-a122ad0f319c	TypeError: next is not a function
+20240113	01:13:57	2f20706b-c8d6-4d5a-8fb4-f30843d20276	TypeError: next is not a function
+20240113	01:13:57	e412c76d-6557-4eda-9d61-b11a9cfe69b9	TypeError: next is not a function
+20240113	01:13:57	53d69601-d324-4509-82b6-ee7434644a2f	TypeError: next is not a function
+20240113	01:13:58	2fdcf5f0-2a6a-43cf-ab17-593ac550f333	TypeError: next is not a function
+20240113	01:15:58	b2387917-529c-437b-aa0e-19ebbe3e2797	TypeError: next is not a function
+20240113	01:16:00	b6a40969-c95f-445b-8b81-863982947f27	TypeError: next is not a function
+20240113	01:16:00	3026c3cc-23b8-4c2e-95a3-7c5a9e74c006	TypeError: next is not a function
+20240113	01:16:00	d075690d-c1fa-415e-900a-0190b899f800	TypeError: next is not a function
+20240113	01:16:00	467494b8-3ba3-43df-8472-ac249059cdb0	TypeError: next is not a function
+20240113	01:16:01	2735b786-3a98-428e-ab15-dc0262cee1e5	TypeError: next is not a function
+20240113	01:16:49	aff333f4-d31b-415e-b906-8494ba5aca3f	TypeError: next is not a function
+20240113	01:16:50	41184c93-29f1-45bf-97db-c94153d2410b	TypeError: next is not a function
+20240113	01:18:05	67c205f7-c936-469b-a564-a7647f0ed6f7	TypeError: next is not a function
+20240113	01:18:06	d32e3314-a318-4b0e-aab0-0a469683e620	TypeError: next is not a function
+20240113	01:19:51	fc1a4daa-b15d-46db-bf34-2220687321a9	TypeError: authHeader?.startWith is not a function
