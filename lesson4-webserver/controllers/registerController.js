@@ -1,26 +1,22 @@
-const usersDB = {
-    users: require('../model/users.json'),
-    setUsers: function (data) {this.users = data}
-}
+const User = require('../model/User')
 
-const fsPromises = require('fs').promises;
 const path = require('path');
 const bcrypt = require('bcrypt');
 
-const handleNewUser =  async (req, res) => {
-    const { user, pwd} = req.body;
-    if (!user || !pwd) return res.status(400).json({'message': 'user and password are required. '})
+const handleNewUser = async (req, res) => {
+    const { user, pwd } = req.body;
+    if (!user || !pwd) return res.status(400).json({ 'message': 'user and password are required. ' })
     // check for deplicate user in the data base
 
-    const duplicate = usersDB.users.find(person => person.username === user);
+    const duplicate = await User.findOne({ username: user }).exec();
     if (duplicate) return res.status(409)
-    try{
+    try {
         // encrypt the password
         const hashedPwd = await bcrypt.hash(pwd, 10)
         // store the new user
         const newUser = {
             'username': user,
-             "roles": {"Users": 2001},
+            "roles": { "Users": 2001 },
             "password": hashedPwd
         };
         usersDB.setUsers([...usersDB.users, newUser]);
@@ -29,12 +25,12 @@ const handleNewUser =  async (req, res) => {
             JSON.stringify(usersDB.users)
         );
         console.log((usersDB.users));
-        res.status(201).json({"success": `New user ${user} created! `})
-    }catch (err) {
-        res.status(500).json({'message': err.message});
+        res.status(201).json({ "success": `New user ${user} created! ` })
+    } catch (err) {
+        res.status(500).json({ 'message': err.message });
     }
 
 }
 
 
-module.exports = {handleNewUser};
+module.exports = { handleNewUser };
