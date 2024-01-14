@@ -19,6 +19,8 @@ const handleNewUser = async (req, res) => {
             "password": hashedPwd
         });
 
+        console.log(result);
+     
        
         
 
