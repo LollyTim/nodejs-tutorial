@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const connectDB = async () => {
     try{
         await mongoose.connect(process.env.DATABASE_URI, {
-            useUnifiedTopologu: true,
+            useUnifiedTopology: true,
             useNewUrlParser: true
         });
 
@@ -13,3 +13,4 @@ const connectDB = async () => {
 }
 
 module.exports = connectDB
+
