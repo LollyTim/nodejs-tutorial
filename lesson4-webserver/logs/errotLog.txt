@@ -57,3 +57,4 @@
 20240113	01:18:05	67c205f7-c936-469b-a564-a7647f0ed6f7	TypeError: next is not a function
 20240113	01:18:06	d32e3314-a318-4b0e-aab0-0a469683e620	TypeError: next is not a function
 20240113	01:19:51	fc1a4daa-b15d-46db-bf34-2220687321a9	TypeError: authHeader?.startWith is not a function
+20240115	00:35:49	354bbcd6-8081-4829-bd4f-4fd7d24dee6c	TypeError: Cannot read properties of undefined (reading 'username')
